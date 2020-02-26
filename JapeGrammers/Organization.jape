@@ -1,0 +1,11 @@
+Phase: Organization
+Input: Token
+Options: control = brill
+
+Rule: OrganizationRule
+Priority: 20
+(
+    {Token.string == "Organization"}
+):label
+-->
+:label.Organization = {"rule" = "OrganizationRule"}
