@@ -1,3 +1,4 @@
+$(function(){
 function zoomIn(event) {
   var pre = document.getElementById("preview");
   pre.style.visibility = "visible";
@@ -15,3 +16,4 @@ function zoomOut() {
   var pre = document.getElementById("preview");
   pre.style.visibility = "hidden";
 }
+});
